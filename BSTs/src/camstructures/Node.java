@@ -9,4 +9,8 @@ public class Node {
 	public Node(County info) {
 		this.info = info;
 	}
+	
+	public String toString() {
+		return Integer.toString(info.FIPS);
+	}
 }

@@ -9,7 +9,7 @@ public class County {
 	
 	public County(String name, int FIPS, String Seat, int population, double area) {
 		this.name = name;
-		this.FIPS = FIPS;
+		this.FIPS = FIPS; //key
 		this.Seat = Seat;
 		this.population = population;
 		this.area = area;
