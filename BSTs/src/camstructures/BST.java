@@ -27,7 +27,7 @@ public class BST {
 	}
 	
 	void inorder(Node root) {
-		if (root == null)
+		if (root == null)a
 			return;
 		inorder(root.left);
 		System.out.print(root);
