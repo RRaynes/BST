@@ -11,6 +11,6 @@ public class Node {
 	}
 	
 	public String toString() {
-		return Integer.toString(info.FIPS);
+		return "" + info.key;
 	}
 }
